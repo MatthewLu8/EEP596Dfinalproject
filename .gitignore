@@ -1,4 +1,4 @@
-# Model files (too large for GitHub)
+# Model files
 *.pth
 *.pt
 *.h5
@@ -32,14 +32,11 @@ wheels/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files (can be large)
+# Data files
 Data/
 *.csv
 *.zip
 *.tar.gz
-
-# Results
-results/
 
 # IDE
 .vscode/
