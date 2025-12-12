@@ -26,6 +26,36 @@ Install all required packages from requirements.txt:
 pip install -r requirements.txt
 ```
 
+## Step 3: Download and Prepare the Dataset
+
+Since the dataset is not included in this repository due to size constraints, you need to download it separately:
+
+1. Download the dataset from Kaggle: [Human Face Emotions](https://www.kaggle.com/datasets/samithsachidanandan/human-face-emotions/data)
+
+2. Create a `Data` directory in the project root:
+   ```bash
+   mkdir Data
+   ```
+
+3. Extract the downloaded dataset and organize it in the following structure:
+   ```
+   Data/
+   ├── train/
+   │   ├── angry/
+   │   ├── fear/
+   │   ├── happy/
+   │   ├── sad/
+   │   └── surprise/
+   └── test/
+       ├── angry/
+       ├── fear/
+       ├── happy/
+       ├── sad/
+       └── surprise/
+   ```
+
+4. Ensure each emotion folder contains the corresponding facial images
+
 Your environment is now ready!
 
 # How to Run
