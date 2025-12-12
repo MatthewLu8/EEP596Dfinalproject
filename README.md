@@ -90,7 +90,12 @@ To train the model from scratch, evaluate performance, and test on your own data
    jupyter notebook final_project.ipynb
    ```
 
-2. Run all cells in the notebook sequentially
+2. **Important**: Before running the notebook, you need to modify the `DATA_DIR` variable in the **Main** section to match your local data path:
+   ```python
+   DATA_DIR = "your/path/to/Data"  # Change this to your actual Data directory path
+   ```
+
+3. Run all cells in the notebook sequentially
 
 The notebook includes:
 - **Data loading and preprocessing** - Prepare the emotion dataset
